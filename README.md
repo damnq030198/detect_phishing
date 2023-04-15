@@ -34,41 +34,41 @@
 # To use api
 1. Check URL (http://server:5000/api/phising)
 
-    *Request*
-
+    - Request
+        ```
         - type = `url`
         - contents = `fakesite.com`
-
-    *Response*
-
+        ```
+    - Response
+         ```
         - error_code:
         - message:
         - result: `NOT FOUND/ DIRTY/ SAFE/ REPORTED`
-
+        ```
 2. Check html (http://server:5000/api/phising)
 
-    *Request*
-
+    - Request
+        ```
         - type = `html_code`
         - contents = `<html>...</html>`
-
-    *Response*
-
+        ```
+    - Response
+        ```
         - error_code:
         - message:
         - result: `NOT LOGIN/ DIRTY/ SAFE`
-
+        ```
 3. Report (http://server:5000/api/report)
 
-    *Request*
-
+    - Request
+        ```
         - type = `DIRTY`
         - url = `fakebook.com`
-
-    *Response*
-
+        ```
+    - Response
+         ```
         - error_code: `0 / 3`
         - message: `report success/ More than 10 people report this site`
         - counter : counter number of users report this site
-
+        ```
 
