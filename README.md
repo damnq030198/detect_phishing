@@ -1,15 +1,15 @@
-#About this project
-1.About Project for IAA
-2.Thanks Nguyen Anh Tuan Nguyen Huu Dung Nguyen Quoc Anh Nguyen Xuan Hoa Nguyen Quang Dam Nguyen The Lam
-#To run this project
+# [About this project](https://github.com/damnq030198/detect_phishing)
+1. About Project for IAA
+2. Thanks Nguyen Anh Tuan Nguyen Huu Dung Nguyen Quoc Anh Nguyen Xuan Hoa Nguyen Quang Dam Nguyen The Lam
+# To run this project
 Requirement
 
--Linux (other OS version haven't been tested.)
--Python 3
--MySQL
+- Linux (other OS version haven't been tested.)
+- Python 3
+- MySQL
 Prepare for build project Please run these commands on bash:
 
-
+```
 virtualenv venv
 . venv/bin/activate
 pip install Flask
@@ -19,7 +19,8 @@ Run this project
 
 export FLASK_APP=app.py
 flask run
-#To use api
+```
+# To use api
 Check URL (http://server:5000/api/phising)
 
 Request
